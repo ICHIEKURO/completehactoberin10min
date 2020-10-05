@@ -19,7 +19,7 @@
     while(n>0)    
     {    
     r=n%10;    
-    sum=(sum*10)+r;    
+    sum=(sum*10)+r;    // it is a palindrome
     n=n/10;    
     }    
     if(temp==sum)    
